@@ -5,21 +5,20 @@ import Main from '.'
 export default {
   title: 'Main',
   component: Main,
+  args: {
+    title: 'React Avançado',
+    description: 'TypeScript, ReactJS, NextJS e Styled Components'
+  },
   parameters: {
     layout: 'fullscreen'
   }
 } as Meta
 
-export const Default: StoryObj = {
-  args: {
-    title: 'Default title',
-    description: 'Default description'
-  }
-}
+export const Default: StoryObj = {}
 
 export const Basic: StoryObj = {
   args: {
-    title: 'title basic',
-    description: 'description basic'
+    title: 'Another title',
+    description: 'Another description'
   }
 }
