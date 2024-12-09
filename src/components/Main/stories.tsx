@@ -10,7 +10,12 @@ export default {
   }
 } as Meta
 
-export const Default: StoryObj = {}
+export const Default: StoryObj = {
+  args: {
+    title: 'Default title',
+    description: 'Default description'
+  }
+}
 
 export const Basic: StoryObj = {
   args: {
